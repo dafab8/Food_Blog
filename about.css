@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+/*navbar section*/
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+  margin-top: 1.5em;
+  background-color: black;
+}
+
+.nav-links li {
+  list-style: none;
+  border-left: 1px solid white;
+  padding: 10px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: wheat;
+}
+
+/*main section*/
+
+.main {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.main img {
+  width: 300px;
+  height: auto;
+  border-radius: 10%;
+  display: block;
+  margin-left: 2rem;
+}
+
+h1 {
+  color: brown;
+  text-align: center;
+}
+
+h2 {
+  color: brown;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+p {
+  margin: 0 3rem;
+  display: block;
+}
+
+/*footer section*/
+
+.footer {
+  padding: 1.5rem;
+  background-color: black;
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-links li {
+  padding: 0.1rem;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: wheat;
+  margin: 3rem;
+  border-left: 1px solid white;
+  padding: 10px;
+}
